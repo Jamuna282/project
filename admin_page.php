@@ -114,3 +114,48 @@ if(!isset($admin_id)){
     </body>
 >>>>>>> cabe474b531ea5b263a35efce7734f05e4907fd1
  </html>
+
+
+
+
+
+ <Tink rel="stylesheet" hret="css/admin_style.css*>
+</head>
+< body>
+<?php include 'admin_header.php';
+<section class="dashboard">
+
+<h1 class="heading" ></h1>dashboard</h1>
+<div class= "box-container>
+<?php
+$total_pending=0;
+$select_pending =mysqli_query($conn "SELECT total_price FROM `orders` WHERE payment_status =`pending`") or die(`query failed`);
+
+if(mysqli_num_rows($select_pending)>0){
+while($fetch_pendings = mysqli_fetch_assoc($select_pending)){
+    $total_price = $fetch_pendings[`total_price`] 
+    $total_pending +=$total_price;
+};
+};
+?>
+<h3><?php echo $fetch_pendings[]; ?></h3>
+<p>total pending</p>
+</div>
+<div class ="box">
+    <?php
+$total_completed=0;
+$select_completed =mysqli_query($conn "SELECT total_price FROM `orders` WHERE payment_status =`pending`") or die(`query failed`);
+if(mysqli_num_rows($select_completed)>0){
+while($fetch_completed = mysqli_fetch_assoc($select_completed)){
+    $total_price = $fetch_completed[`total_price`] 
+    $total_completed +=$total_price;
+};
+};
+?>
+<h3><?php echo $fetch_-$fetch_completed[]; ?></h3>
+<p>completed payments</p>
+</div>
+<?php
+
+</div>
+</ section>
