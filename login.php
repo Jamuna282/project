@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  <?php
 
  // Include database connection file
@@ -106,5 +106,4 @@ if(isset($message)){
 </div>
 
 </body>
-=======
  
