@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  <?php
 
  // Include the database configuration file (for databaes connection)

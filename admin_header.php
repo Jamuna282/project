@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608
   <!-- Admin Header Section -->
  <header class="header">
 
@@ -35,3 +39,8 @@
 
  <!--custom admin js file link -->
 <script src="js/admin_script.js"></script>
+<<<<<<< HEAD
+=======
+
+ 
+>>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608

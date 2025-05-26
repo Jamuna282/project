@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
  <?php
 
  // Include the database connection file
@@ -56,6 +57,9 @@ if(!isset($admin_id)){
 
     </body>
 =======
+=======
+
+>>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608
  <?php
 
  // Include the database connection file
@@ -112,6 +116,7 @@ if(!isset($admin_id)){
 <script src="js/admin_script.js"></script>
 
     </body>
+<<<<<<< HEAD
 >>>>>>> cabe474b531ea5b263a35efce7734f05e4907fd1
  </html>
 
@@ -159,3 +164,5 @@ while($fetch_completed = mysqli_fetch_assoc($select_completed)){
 
 </div>
 </ section>
+=======
+>>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608
