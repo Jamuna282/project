@@ -1,5 +1,4 @@
-
- @import url('https://fonts.googleeapis.com/css2?family=Rubik:wght@300,400,500;600&display=swap');
+@import url('https://fonts.googleeapis.com/css2?family=Rubik:wght@300,400,500;600&display=swap');
 
  :root{
     --purple:#8e44ad;
@@ -49,6 +48,15 @@
  section{
     padding:3rem 2rem;
  }
+
+  .empty{
+    padding:1.5rem;
+    text-align: center;
+    border:var(--border);
+    background-color: var(--white);
+    color:var(--red);
+    font-size: 2rem;
+  }  
 
  .message{
    position: sticky;
@@ -203,15 +211,281 @@
     display: none;
 }
 
+.dashboard .box-container .box p{
+    margin-top: 1.5rem;
+    padding:1.5rem;
+    background-color: var(--light-bg);
+    color:var(--purple);
+    font-size: 2rem;
+    border-radius: .5rem;
+    border:var(--border);
+}
+
+.add-books form{
+    background-color: var(--white);
+    border-radius: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    max-width: 50rem;
+    margin:0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    color: purple; /* or use var(--black) if you have theme variables */
+    text-transform: capitalize;
+}
+
+
+.add-books form h3{
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     color:var(--black);
+     margin-bottom: 1.5rem;
+}
+
+.add-books form .box{
+    width: 100%;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    margin:1rem 0;
+    padding:1.2rem 1.4rem;
+    color:var(--black);
+    font-size: 1.8rem; 
+    border:var(--border);
+}
+ 
+.show-books .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem );
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+    .show-books{
+      padding-top: 0;
+     } 
+
+    .show-books .box-container .box{
+        text-align: center;
+        padding:2rem;
+        border-radius: 2.5rem;
+        border:var(--border);
+        box-shadow: var(--box-shadow);
+        background-color: var(--white);
+    }
+
+    .show-books .box-container .box img{
+        height: 30rem;
+    }
+
+    .show-books .box-container .box .name{
+        padding:1rem 0;
+        font-size: 2rem;
+        color:var(--black);
+
+    }
+
+    .show-books .box-container .box .price{
+        padding:1rem 0;
+        font-size: 2.5rem;
+        color:var(--light-color);
+    }
+     
+     .edit-book-form{
+        min-height: 100vh;
+        background-color: rgba(0,0,0,.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:2rem;
+        overflow-y: scroll;
+        position: fixed;
+        top:0; left:0;
+        z-index: 1200;
+        width: 100%;
+     }
+
+     .edit-book-form form{
+        width: 50rem;
+        padding:2rem;
+        text-align: center;
+        border-radius: .5rem;
+        background-color: var(--white);
+     }
+
+     .edit-book-form form img{
+        height: 25rem;
+        margin-bottom: 1rem;
+     }
+
+     .edit-book-form form .box{
+        margin:1rem 0;
+        padding:1.2rem 1.4rem;
+        border:var(--border);
+        border-radius: .5rem;
+        background-color: var( --white);
+        font-size: 1.8rem;
+        color:var(--black);
+        width: 100%;
+     }
+
+     .box .status{
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-top: .5rem;
+     }
+    
+     .box .category{
+        font-size: 2rem;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-top: .5px;
+        text-transform: capitalize;
+     }
+    
+  .orders .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem );
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+   
+.orders .box-container .box{
+    background-color: var(--white);
+    padding:2rem;
+    border:var(--border);
+    box-shadow: var(--box-shodow);
+    border-radius: 2.5rem;
+
+}
+
+.orders .box-container .box p{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.orders .box-container .box p span{
+     color:var(--purple);
+    
+}
+ 
+.orders .box-container .box form{
+    text-align: center;
+}
+
+
+.orders .box-container .box form select{
+    border-radius: 1.5rem;
+    margin:.5rem 0;
+    width: 100%;
+    background-color: var(--light-bg);
+    border:var(--border);
+    padding:1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color:var(--black);
+}
+ 
+.message {
+    background-color: var(--white);
+    border-left: 5px;
+    padding: 15px 20px;
+    margin: 15px auto;
+    width: 80%;
+    color: var(--black);
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px; 
+}
+
+ .users .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem );
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.users .box-container .box{
+    background-color: var(--white);
+    padding:3rem;
+    border:var(--border);
+    box-shadow: var(--box-shodow);
+    border-radius: 2.5rem;
+    text-align: center;
+}
+
+.users .box-container .box p{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.users .box-container .box p span{
+    color:var(--purple);
+}
+ 
+.users .box-container .box .delete-btn{
+    margin-top: 0;
+}
+
+.messages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32rem );
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.messages .box-container .box {
+    background-color: var(--white);
+    padding:3rem;
+    border:var(--border);
+    box-shadow: var(--box-shodow);
+    border-radius: 2.5rem;
+    text-align: center;
+}
+
+  .messages .box-container .box p {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+    line-height: 2.5rem;
+  }
+   
+  .messages .box-container .box p span {
+    color:var(--purple);
+}
+
+  .messages .box-container .box .delete-btn {
+     margin-top: 0;
+  }
 
 
 
 
+    
 
 
-
-
-
+ 
 
 
 /* media queries */

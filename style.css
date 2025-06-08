@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608
  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
  :root{
@@ -211,29 +208,3 @@ section{
     }
 }
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-/* media queries */
-
-@media (max-width:991px){
-   
-    html{
-        font-size: 55%;
-
-    }
-}
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
-    }
-}
->>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608

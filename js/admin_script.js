@@ -32,3 +32,9 @@ window.onscroll = () =>{
       //Hide the account box when scrolling
       accountBox.classList.remove('active');
 }
+
+document.querySelector('#close-update').onclick = () =>{
+  document.querySelector('.edit-book-form').style.display = 'none';
+  window.location.href = 'admin_books.php';
+}
+

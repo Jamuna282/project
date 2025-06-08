@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608
-  <!-- Admin Header Section -->
+ <!-- Admin Header Section -->
  <header class="header">
 
   <div class="flex"> <!-- Flex container for layout -->
@@ -39,8 +34,4 @@
 
  <!--custom admin js file link -->
 <script src="js/admin_script.js"></script>
-<<<<<<< HEAD
-=======
 
- 
->>>>>>> 5045544b63b9dd5f1e168a420f3cd35f17ba5608
