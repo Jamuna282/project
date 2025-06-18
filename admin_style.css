@@ -86,6 +86,7 @@
 .message i:hover{
    transform: rotate(90deg);
 }
+
  .btn,
  .option-btn,
  .delete-btn,
